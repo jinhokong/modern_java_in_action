@@ -5,7 +5,7 @@ import java.io.FileFilter;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class main {
+public class test1 {
     @Test
     public void lambda_is_working(){
         File[] hiddenFiles1=new File(".").listFiles(new FileFilter() {
@@ -18,4 +18,5 @@ public class main {
 
         assertArrayEquals(hiddenFiles1,hiddenFiles2);
     }
+
 }
