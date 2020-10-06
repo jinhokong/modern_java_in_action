@@ -15,7 +15,7 @@ public class test2 {
         }
     }
     @Test
-    public void Consummer(){
+    public void consumer(){
         forEach(
                 Arrays.asList(1,2,3,4,5),
                 (Integer i) -> System.out.println(i)
